@@ -17,7 +17,7 @@ Kubernetes-like API objects.}
 Name:           %{goname}
 Release:        1%{?dist}
 Summary:        Scheme, typing, encoding, decoding, and conversion packages for Kubernetes
-License:        Apache 2.0
+License:        ASL 2.0
 URL:            %{gourl}
 Source0:        %{gosource}
 

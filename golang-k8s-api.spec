@@ -16,7 +16,7 @@ The canonical location of the Kubernetes API definition.}
 Name:           %{goname}
 Release:        1%{?dist}
 Summary:        The canonical location of the Kubernetes API definition.
-License:        Apache 2.0
+License:        ASL 2.0
 URL:            %{gourl}
 Source0:        %{gosource}
 

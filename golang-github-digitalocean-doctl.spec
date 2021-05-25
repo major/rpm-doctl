@@ -12,7 +12,7 @@ The official command line interface for the DigitalOcean API}
 Name:           %{goname}
 Release:        1%{?dist}
 Summary:        The official command line interface for the DigitalOcean API
-License:        Apache 2.0
+License:        ASL 2.0
 URL:            %{gourl}
 Source0:        %{gosource}
 
