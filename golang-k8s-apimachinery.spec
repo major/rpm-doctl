@@ -4,8 +4,9 @@
 Version:    1.21.1
 %global     tag             kubernetes-1.21.1
 %global     distprefix      %{nil}
+%global     debug_package   %{nil}
 
-%gometa -iv
+%gometa
 
 %global common_description %{expand:
 Scheme, typing, encoding, decoding, and conversion packages for Kubernetes and
@@ -34,8 +35,9 @@ Source0:        %{gosource}
 %install
 %gopkginstall
 
-# %check
-# %gocheck
+%check
+%gocheck -d k8s.io/apimachinery/pkg/util/managedfields \
+    -d k8s.io/apimachinery/pkg/util/strategicpatch
 
 %gopkgfiles
 
