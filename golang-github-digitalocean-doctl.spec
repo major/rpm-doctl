@@ -1,6 +1,6 @@
 # https://github.com/digitalocean/doctl
 %global     goipath     github.com/digitalocean/doctl
-Version:                1.61.0
+Version:                1.60.0
 
 %gometa
 
@@ -37,5 +37,5 @@ Source0:        %{gosource}
 
 
 %changelog
-* Tue May 25 2021 Major Hayden <major@mhtx.net> - 1.61.0-1
+* Tue May 25 2021 Major Hayden <major@mhtx.net> - 1.60.0-1
 - First package.
