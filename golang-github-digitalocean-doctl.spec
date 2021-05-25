@@ -37,5 +37,5 @@ Source0:        %{gosource}
 
 
 %changelog
-* Thu Mar 21 22:20:22 CET 2019 Robert-André Mauchin <zebob.m@gmail.com> - 1.2.2-1
-- First package for Fedora
+* Tue May 25 2021 Major Hayden <major@mhtx.net> - 1.61.0-1
+- First package.
